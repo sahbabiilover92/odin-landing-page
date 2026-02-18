@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header{
@@ -8,4 +11,14 @@ body{
     flex-direction: column;
     background-color: #1F2937;
 
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar h1{
+    color: #f9faf8;
+    font-size: 24px;
 }
