@@ -16,9 +16,21 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
 }
 
 .navbar h1{
     color: #f9faf8;
     font-size: 24px;
+}
+
+ul{
+    padding: 0;
+    margin:0;
+    display: flex;
+    color: #e5e7eb;
+    list-style-type: none;
+    gap: 20px;
 }
