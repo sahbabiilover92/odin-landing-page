@@ -64,7 +64,7 @@ ul{
 
 }
 
-#sign_up_one{
+#sign_up_one, #sign_up_two{
     font-size: 16px;
     background-color: #3882f6;
     color: white;
@@ -141,4 +141,49 @@ ul{
     text-align: right;
     font-size: 18px;
     font-weight: 600;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up_content{
+    background-color: #3882f6;
+    margin: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up_text{
+    color: #e5e7eb;
+    padding: 40px 100px;
+    flex:2;
+}
+
+.sign-up_text h2{
+    font-size: 24px;
+    margin: 0px;
+
+}
+
+.sign-up_text p{
+    font-size: 18px;
+    margin: 0px;
+
+}
+
+.button_container{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#sign_up_two{
+    border-width: 2px;
+    border-style: solid;
 }
