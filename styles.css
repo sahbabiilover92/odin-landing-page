@@ -5,11 +5,16 @@ body{
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
+.navbar, .overview, .info_header, .info_content, .quote_content, .sign-up_content{
+    width: 75%;
+    margin: auto;
+}
 
 .header{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    width: 100%;
 
 }
 
@@ -17,8 +22,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 75%;
-    margin: auto;
 }
 
 .navbar h1{
@@ -33,4 +36,8 @@ ul{
     color: #e5e7eb;
     list-style-type: none;
     gap: 20px;
+}
+
+.overview{
+    display: flex;
 }
