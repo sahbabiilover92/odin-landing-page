@@ -6,7 +6,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .navbar, .overview, .info_header, .info_content, .quote_content, .sign-up_content{
-    width: 75%;
+    width: 1422.75px;
     margin: auto;
 }
 
@@ -40,4 +40,26 @@ ul{
 
 .overview{
     display: flex;
+    
+}
+
+.overview_text{
+    width: 50%;
+}
+
+.overview_img{
+    display: flex;
+    box-sizing: border-box;
+
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 50%;
+    
+
+}
+
+.overview_img img{
+    display: flex;
+    
 }
