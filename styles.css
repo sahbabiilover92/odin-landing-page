@@ -180,12 +180,13 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding-right: 100px;
 }
 
 #sign_up_two{
     border-width: 2px;
     border-style: solid;
+    
 }
 
 .footer{
