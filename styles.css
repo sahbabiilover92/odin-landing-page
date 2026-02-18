@@ -6,7 +6,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .navbar, .overview, .info_header, .info_content, .quote_content, .sign-up_content{
-    width: 1422.75px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -40,26 +40,45 @@ ul{
 
 .overview{
     display: flex;
+    padding: 70px 70px 140px;
+    gap: 60px;
     
 }
 
 .overview_text{
-    width: 50%;
+    width: 45%;
+}
+
+.overview_text h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0px;
+
+}
+
+.overview_text p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 0px;
+
+}
+
+#sign_up_one{
+    font-size: 16px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 35px;
+    border: white;
+    font-weight: 600;
+
 }
 
 .overview_img{
+    background-color: gray;
     display: flex;
-    box-sizing: border-box;
-
+    width: 55%;
     justify-content: center;
     align-items: center;
-    background-color: gray;
-    width: 50%;
-    
-
-}
-
-.overview_img img{
-    display: flex;
-    
 }
